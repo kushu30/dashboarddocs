@@ -26,7 +26,7 @@
         "groups": [
           {
             "group": "Get Started",
-            "pages": ["introduction", "onboarding", "abandonedcart", "shipping",{
+            "pages": ["introduction", "abandonedcart", "shipping",{
                 "group": "Coupons",
                 "pages": [
                   "coupons/AmountOffProducts_OrderDiscount",

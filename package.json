@@ -8,6 +8,9 @@
     "react-dom": "^18.3.1"
   },
   "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+  "build": "next build",
+  "start": "next start",
+  "devDependencies": {
+    "mintlify": "^4.2.144"
+  }
 }
