@@ -12,5 +12,9 @@
   "start": "next start",
   "devDependencies": {
     "mintlify": "^4.2.144"
+  },
+  "overrides": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
