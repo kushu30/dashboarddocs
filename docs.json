@@ -37,7 +37,7 @@
                   "coupons/Bundle"
                 ]
               },
-              "paymentoffers", "Upsell", {
+              "paymentoffers", "upsell", {
                 "group": "Customization",
                 "pages": [
                   "customizations/general",
