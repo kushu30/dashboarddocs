@@ -1,0 +1,107 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "FlexyPe",
+  "description": "Simple 1-click checkout built for Shopify. Boost conversions with a seamless, high-converting experience",
+  "favicon": "/flexy-favicon.svg",
+  "logo": {
+    "light": "/logo/flexy-light.svg",
+    "dark": "/logo/flexy-dark.svg"
+  },
+  "appearance": {
+    "default": "system"
+  },
+  "colors": {
+    "primary": "#2f72ff",
+    "light": "#5c94ff",
+    "dark": "#255acc"
+  },
+  "background": {
+    "decoration": "grid"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Dashboard Handbook",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": ["introduction", "onboarding", "abandonedcart", "shipping",{
+                "group": "Coupons",
+                "pages": [
+                  "coupons/AmountOffProducts_OrderDiscount",
+                  "coupons/buyxgety",
+                  "coupons/PurchaseDriven",
+                  "coupons/ExclusiveFreeGift",
+                  "coupons/FreeShipping",
+                  "coupons/Bundle"
+                ]
+              },
+              "paymentoffers", "Upsell", {
+                "group": "Customization",
+                "pages": [
+                  "customizations/general",
+                  "customizations/login",
+                  "customizations/address",
+                  "customizations/payments"
+                ]
+              }, "rtosuite",
+              {
+                "group": "Settings",
+                "pages": [
+                  "settings/storedetails",
+                  "settings/payments",
+                  "settings/taxesandduties",
+                  "settings/integrations",
+                  "settings/apikeys",
+                  "settings/usersandpermissions",
+                  "settings/activitylogs",
+                  "settings/changepassword"
+                ]
+              }
+
+             ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Website",
+          "href": "https://flexype.io",
+          "icon": "globe"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://flexype.io/blogs",
+          "icon": "newspaper"
+        },
+        {
+          "anchor": "Docs",
+          "href": "https://docs.flexype.io/",
+          "icon": "book"
+        }
+      ]
+    }
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hello@flexype.io"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.flexype.io"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/FlexyPe",
+      "linkedin": "https://linkedin.com/company/flexype"
+    }
+  }
+}
